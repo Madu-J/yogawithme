@@ -22,13 +22,45 @@ body {
 header {
     background-color: aqua;
     padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #00ffff;
 }
 
-/* Main */
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    left: 0;
+    padding: 1rem;
+    box-shadow: 0 2px 2px #00ffff;
+    display: none;
+    top: 100%;
+}
+
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+   display: none; 
+}
+
+.nav-toggle-label {
+    font-size: large;
+}
+
+/* Main content */
 main {
     background-color: orangered;
     /* Make main element take up my surplus space to push footer down */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from covered by the header */
+    margin-top: 2px;
 
 }
 
