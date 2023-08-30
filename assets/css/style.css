@@ -91,9 +91,18 @@ main {
 
 }
 
+/* footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
 
-footer {
-    background-color: blueviolet;
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up) */ 
@@ -129,6 +138,9 @@ footer {
             /* Push main content down to accommodate larger header */
             margin-top: 79px;
         }
+
+    
+    
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
