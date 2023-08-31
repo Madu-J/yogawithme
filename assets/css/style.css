@@ -112,6 +112,32 @@ main {
     padding: 10px;
 }
 
+#yoga img {
+    height: 300%;
+    width: 100%;
+    padding: 10px;
+}
+
+#yoga p {
+    font-size: large;
+    letter-spacing: 1px;
+    padding: 2rem;
+}
+
+#circle-cover-bg, #circle-cover-bg1 {
+    background: url(../images/man.meditating.jpg) no-repeat top center /cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 15px;
+}
+
+#circle-cover-bg1 {
+    background: url(../images/man-streching-yoga.jpg) no-repeat top center /cover;
+}
+
 
 /* footer */
 #social-networks {
@@ -170,13 +196,20 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #first-text h2 {
-
-    }
-
     #first-text img {
-        width: 200vh;
+        width: 100vh;
         height: auto;
         position: relative;
+    }
+
+    #circle-cover-bg, #circle-cover-bg1 {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        max-width: 500px;
+        max-height: 500px;
+        margin: 15px;
+        float: right;
+        margin-top: 5px;
     }
 }
