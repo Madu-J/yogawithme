@@ -36,10 +36,10 @@ header a {
     color: inherit;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #252525;
 }
 
@@ -84,12 +84,31 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up my surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-
 }
+
+#first-text h2 {
+    font-size: 110%;
+    width: 100%;
+    margin: 3px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#first-text p {
+    font-size: 120%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#first-text img {
+    height: 300%;
+    width: 100%;
+    padding: 10px;
+}
+
 
 /* footer */
 #social-networks {
@@ -139,8 +158,6 @@ main {
             /* Push main content down to accommodate larger header */
             margin-top: 79px;
         }
-
-    
     
 }
 
@@ -148,5 +165,14 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #first-text h2 {
+
+    }
+
+    #first-text img {
+        width: 200vh;
+        height: auto;
     }
 }
