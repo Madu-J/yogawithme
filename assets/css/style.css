@@ -112,41 +112,23 @@ main {
     padding: 10px;
 }
 
-#yoga img {
-    height: 300%;
-    width: 100%;
-    padding: 10px;
-}
-
 #yoga p {
     font-size: large;
     letter-spacing: 1px;
     padding: 2rem;
 }
 
-#circle-cover-bg1, #circle-cover-bg2,
- #circle-cover-bg3, #circle-cover-bg4 {
-    background: url(../images/downward.png) no-repeat top left /cover;
+#circle-cover-bg1,
+#circle-cover-bg2,
+#circle-cover-bg3,
+#circle-cover-bg4 {
     height: 200px;
     width: 200px;
     border-radius: 50%;
     max-width: 500px;
     max-height: 500px;
-    margin: 15px;
+    margin: 40px;
 }
-
-#circle-cover-bg1 {
-    background: url(../images/man-streching-yoga.jpg) no-repeat left center /cover;
-}
-
-#circle-cover-bg2 {
-    background: url(../images/man.meditating.jpg) no-repeat left center /cover;
-}
-
-#circle-cover-bg3 {
-    background: url(../images/woman.yoga.png) no-repeat top center /cover;
-}
-
 
 
 /* footer */
@@ -192,11 +174,12 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-        /* Main content */
-        main {
-            /* Push main content down to accommodate larger header */
-            margin-top: 79px;
-        }
+
+    /* Main content */
+    main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 79px;
+    }
     
 }
 
@@ -207,21 +190,19 @@ main {
     }
 
     #first-text img {
-        width: 100vh;
+        width: 100%;
         height: auto;
         position: relative;
     }
 
-    #circle-cover-bg, #circle-cover-bg1 {
-        height: 300px;
-        width: 300px;
-        border-radius: 50%;
-        max-width: 500px;
-        max-height: 500px;
-        margin: 15px;
-        float: right;
-        margin-top: 5px;
-    }
+        #circle-cover-bg1,
+        #circle-cover-bg2,
+        #circle-cover-bg3,
+        #circle-cover-bg4 {
+            height: 250px;
+            width: 250px;
+            margin-left: 80px;
+        }
 
 
 }
