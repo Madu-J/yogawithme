@@ -123,9 +123,15 @@ main {
     margin: 40px;
 }
 
-#cover-text p {
+#cover-text h2 {
+    text-transform: lowercase;
+    text-align: center;
+}
+
+figcaption {
     font-size: 110%;
-    margin: 30px;
+    margin: 15px;
+    letter-spacing: 1px;
 }
 
 
@@ -192,8 +198,25 @@ main {
         height: auto;
         position: relative;
     }
+figcaption {
+    width: 20%;
+}
+   #center {
+        margin-left: 450px;
+    }
 
-       
+    #circle-cover-bg2 {
+        margin-left: 500px;
+       top: -500px;
 
+    }
+
+    #right {
+        margin-left: 900px;
+    }
+
+    #circle-cover-bg3 {
+        margin-left: 900px;
+    }
 
 }
