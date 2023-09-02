@@ -112,22 +112,20 @@ main {
     padding: 10px;
 }
 
-#yoga p {
-    font-size: large;
-    letter-spacing: 1px;
-    padding: 2rem;
-}
-
 #circle-cover-bg1,
 #circle-cover-bg2,
 #circle-cover-bg3,
 #circle-cover-bg4 {
     height: 200px;
     width: 200px;
+    overflow: hidden;
     border-radius: 50%;
-    max-width: 500px;
-    max-height: 500px;
     margin: 40px;
+}
+
+#cover-text p {
+    font-size: 110%;
+    margin: 30px;
 }
 
 
@@ -195,14 +193,7 @@ main {
         position: relative;
     }
 
-        #circle-cover-bg1,
-        #circle-cover-bg2,
-        #circle-cover-bg3,
-        #circle-cover-bg4 {
-            height: 250px;
-            width: 250px;
-            margin-left: 80px;
-        }
+       
 
 
 }
