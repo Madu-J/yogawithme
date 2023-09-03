@@ -150,10 +150,15 @@ figcaption {
     
 }
 
+#signup h2 {
+    color: #fff;
+}
+
 #signup-form {
     color: cadetblue;
     background-color: rgba(30, 40, 30, 0.6);
     padding: 30px;
+    margin-top: 30px;
 }
 
 .text-input {
@@ -165,6 +170,12 @@ figcaption {
     border: 1px solid cadetblue;
     border-radius: 2px;
     padding: 0 5px;
+}
+
+#follow-us {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 
@@ -214,6 +225,7 @@ figcaption {
 
     /* Form */
     #signup {
+        width: 100%;
         background-position: center;
         position: relative;
     }
@@ -253,6 +265,9 @@ figcaption {
     width: 100%;
    }
 
-   
+   #signup-form {
+    width: 20%;
+    margin: 15px;
+   }
 
 }
