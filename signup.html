@@ -21,7 +21,7 @@
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" style="font-size: 30px"></i>
         </label>
         <nav>
             <ul id="menu">
@@ -31,8 +31,23 @@
             </ul>
         </nav>
     </header>
-    <!--Create main-->
-    <main>Main Content</main>
+    <!--Form section-->
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2>Signup to join our free yoga class!</h2>
+                <label for="full_name">Full Name</label>
+                <input type="text" name="full_name" id="full_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div>
+                    <button type="submit">Signup</button>
+                </div>
+            </form>
+        </section>
+    </main>
 
     <!--Footer-->
     <footer>

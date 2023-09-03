@@ -116,15 +116,18 @@ main {
 #circle-cover-bg2,
 #circle-cover-bg3,
 #circle-cover-bg4 {
-    height: 200px;
-    width: 200px;
-    overflow: hidden;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Make large block into a circle */
     border-radius: 50%;
-    margin: 40px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
+
 #cover-text h2 {
-    text-transform: lowercase;
+    text-transform: inherit;
     text-align: center;
 }
 
@@ -132,6 +135,36 @@ figcaption {
     font-size: 110%;
     margin: 15px;
     letter-spacing: 1px;
+}
+
+/* Form */
+#signup {
+    background-image: url(../images/trainer-yoga.jpg);
+    width: 80%;
+    height: 600px;
+    margin: 30px;
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10px;
+    flex-grow: 1;
+    
+}
+
+#signup-form {
+    color: cadetblue;
+    background-color: rgba(30, 40, 30, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid cadetblue;
+    border-radius: 2px;
+    padding: 0 5px;
 }
 
 
@@ -179,6 +212,12 @@ figcaption {
         margin: 0 0.5rem;
     }
 
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
     /* Main content */
     main {
     /* Push main content down to accommodate larger header */
@@ -198,25 +237,22 @@ figcaption {
         height: auto;
         position: relative;
     }
-figcaption {
+   figcaption {
     width: 20%;
 }
-   #center {
-        margin-left: 450px;
-    }
+   #circle-cover-bg1,
+   #circle-cover-bg2,
+   #circle-cover-bg3,
+   #circle-cover-bg4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 
-    #circle-cover-bg2 {
-        margin-left: 500px;
-       top: -500px;
+   .img {
+    width: 100%;
+   }
 
-    }
-
-    #right {
-        margin-left: 900px;
-    }
-
-    #circle-cover-bg3 {
-        margin-left: 900px;
-    }
+   
 
 }
