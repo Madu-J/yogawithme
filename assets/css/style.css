@@ -79,7 +79,7 @@ nav {
 }
 
 .nav-toggle-label {
-
+    font-size: 2rem;
 }
 
 /* Main content */
@@ -107,33 +107,26 @@ main {
 }
 
 #first-text img {
-    height: 300%;
+    height: 600px;
     width: 100%;
     padding: 10px;
+    background-color: cadetblue;
 }
 
-#circle-cover-bg1,
-#circle-cover-bg2,
-#circle-cover-bg3,
-#circle-cover-bg4 {
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* Make large block into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-
-#cover-text h2 {
-    text-transform: inherit;
-    text-align: center;
+#cover-bg img, figcaption {
+   height: 90vw;
+   width: 90vw;
+   margin-bottom: 20px;
+   /* Make large block into a circle */
+   border-radius: 50%;
+   float: right;
+   max-width: 300px;
+   max-height: 300px;
 }
 
 figcaption {
-    font-size: 110%;
-    margin: 15px;
+    font-size:;
+    margin: 60px;
     letter-spacing: 1px;
 }
 
@@ -166,8 +159,7 @@ figcaption {
 #signup-form {
     color: cadetblue;
     background-color: rgba(30, 40, 30, 0.6);
-    padding: 30px;
-    margin-top: 30px;
+    padding: 15px;
 }
 
 .text-input {
@@ -218,6 +210,18 @@ figcaption {
         display: flex;
     }
 
+    #menu>li {
+            padding-left: 1em;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+    
+    #menu {
+        display: flex;
+    }
+
     #menu > li {
         padding-left: 1rem;
     }
@@ -232,22 +236,21 @@ figcaption {
         margin: 0 0.5rem;
     }
 
- /* About section */
- #about {
-     background-color: cadetblue;
-     color: rgba(30, 40, 30, 0.6);
-     text-align: center;
-     margin: 150px;
-    
- }
+    /* About section */
+    #about {
+    background-color: cadetblue;
+    color: rgba(30, 40, 30, 0.6);
+    text-align: center;
+    margin: 150px;
+    }
 
 
     /* Form */
     #signup {
-        width: 90%;
-        background-position: center;
-        position: relative;
-        padding: 120px;
+    width: 90%;
+    background-position: center;
+    position: relative;
+    padding: 120px;
     
     }
 
@@ -273,14 +276,6 @@ figcaption {
    figcaption {
     width: 20%;
 }
-   #circle-cover-bg1,
-   #circle-cover-bg2,
-   #circle-cover-bg3,
-   #circle-cover-bg4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
 
    .img {
     width: 100%;
