@@ -124,7 +124,7 @@ main {
    max-height: 300px;
 }
 
-figcaption {
+#figcaption {
     font-size: 75%;
     margin: 60px;
     letter-spacing: 1px;
@@ -237,6 +237,24 @@ figcaption {
         margin: 0 0.5rem;
     }
 
+    #cover-bg img,
+    figcaption {
+        height: 75vw;
+        width: 75vw;
+        /* Make large block into a circle */
+        border-radius: 50%;
+        float: right;
+        max-width: 270px;
+        max-height: 270px;
+        padding-right: 1%;
+    }
+
+    #figcaption {
+        font-size: 110%;
+        letter-spacing: 1px;
+        padding-right: 1%;
+    }
+
     /* About section */
     #about {
     background-color: cadetblue;
@@ -248,10 +266,11 @@ figcaption {
 
     /* Form */
     #signup {
-    width: 90%;
-    background-position: center;
+    width: 68%;
+    left: 9.5%;
+    padding: 75px;
     position: relative;
-    padding: 120px;
+    
     
     }
 
@@ -274,7 +293,7 @@ figcaption {
         height: auto;
         position: relative;
     }
-   figcaption {
+   #figcaption {
     width: 20%;
 }
 
