@@ -113,21 +113,27 @@ main {
     background-color: cadetblue;
 }
 
-#cover-bg img,
-figcaption {
+#column-bg img,
+.figcaption {
    height: 90vw;
    width: 90vw;
    /* Make large block into a circle */
    border-radius: 50%;
    max-width: 300px;
    max-height: 300px;
-   float: right;
+   float: none;
+   }
+
+.figcaption {
+    font-size: 75%;
+    margin:;
+    letter-spacing: 1px;
 }
 
-#figcaption {
-    font-size: 75%;
-    margin: 45px;
-    letter-spacing: 1px;
+#circle-bg2, h4 {
+    /* To place an image and text move to position */
+    float: ;
+    padding: auto;
 }
 
 /* About section */
@@ -244,20 +250,26 @@ figcaption {
         position: relative;
     }
 
-    #cover-bg img,
-    figcaption {
+    #column-bg img,
+    .figcaption {
         height: 90vw;
         width: 90vw;
         /* Make large block into a circle */
          border-radius: 50%;
          max-width: 270px;
         max-height: 270px;
-        float: right;
     }
 
-    #figcaption {
-        font-size: 110%;
+    .figcaption {
+        font-size: 75%;
         letter-spacing: 1px;
+        margin-bottom: 75%;
+    }
+
+    #circle-bg2, h4 {
+        /* To place an image and text move to position */
+        float: left;
+        padding:;
     }
 
     /* About section */
@@ -297,22 +309,30 @@ figcaption {
         position: relative;
     }
 
-    #figcaption {
-    width: 100%;
-    }
-
-    #cover-bg img,
-    figcaption {
+    #column-bg img,
+    .figcaption {
         height: 90vw;
-        width: 90vw;
-        /* Make large block into a circle */
+         width: 90vw;
+         /* Make large block into a circle */
         border-radius: 50%;
         max-width: 270px;
         max-height: 270px;
-        float: right;
-        }
+    }
 
-   #signup-form {
+    .figcaption {
+        font-size: 75%;
+        margin:;
+        letter-spacing: 1px;
+        margin-bottom: 75%;
+    }
+ 
+    #circle-bg2, h4 {
+        /* To place an image and text move to position */
+        float: left;
+        padding:px;
+    }
+
+    #signup-form {
     width: 20%;
     margin: 15px;
    }
