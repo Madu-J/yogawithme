@@ -97,6 +97,18 @@ main {
     position: relative;
 }
 
+#cover-text {
+    background-color: rgba(95, 158, 160, .7);
+    color: #fff;
+    font-size: 180%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 100px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
 /* First text and image */
 #first-section h3 {
     text-align: center;
@@ -259,47 +271,41 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #first-img {
-        width: 55vh;
-        margin-top: 20px;
+    #first-photo {
+        width: 40vh;
         float: left;
+
     }
-     #first-text {
-        width: 35%;
+    #first-section h3 {
+       margin-right: 1200px;
+    }
+
+    #first-section p {
+        width: 40%;
         height: 100px;
         float: left;
-        letter-spacing: 2px;
-        margin-top: 80px;
-        margin-left: 75px;
-     }
+        margin-left: 70px;
+        margin-top: 60px;
+    }
 
-    #second-img {
-        margin-top: 20px;
-        width: 55vh;
+    #second-photo {
+        width: 40vh;
+        margin: 30px;
         float: right;
-
+        margin-bottom: 900px;
     }
 
-    #third-img {
-        width: 55vh;
+
+    #third-photo {
+       width: 40vh;
+       float: left;
+    }
+
+    #forth-photo {
+        width: 80vh;
         float: right;
-        margin-left: 300px;
-        margin-top: 30px;
-    }
-    #forth-img {
-        width: 55vh;
-        float: left;
-        margin: 30px 0;
     }
 
-    #second-text {
-        width: 33%;
-        height: 110px;
-        float: left;
-        
-
-    
-    }
 
     #signup-form {
     width: 20%;
