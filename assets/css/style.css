@@ -180,10 +180,6 @@ img {
 
 
 /* footer */
-
-footer {
-    position: sticky;
-}
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -301,9 +297,18 @@ footer {
        float: left;
     }
 
+    #second-section p {
+        width: 20%;
+        height: 100px;
+        float: left;
+        margin-left: 70px;
+        margin-top: 60px;
+    }
+
     #forth-photo {
-        width: 80vh;
-        float: right;
+        width: 40vh;
+       float: right;
+       margin-bottom: 700px;
     }
 
 
