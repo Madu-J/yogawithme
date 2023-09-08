@@ -284,6 +284,12 @@ img {
         margin-top: 60px;
     }
 
+        #second-image-text {
+            width: 20%;
+            height: 30px;
+            margin-left: 1200px;
+        }
+
     #second-photo {
         width: 40vh;
         margin: 30px;
@@ -293,28 +299,37 @@ img {
 
 
     #third-photo {
-       width: 40vh;
+       /* Make large block into a circle */
+       border-radius: 50%;
+       width: 90vh;
        float: left;
+       max-width: 370px;
+       max-height: 370px;
     }
 
     #second-section p {
         width: 20%;
         height: 100px;
         float: left;
-        margin-left: 150px;
+        margin-left: 80px;
         margin-top: 60px;
     }
 
     #second-section
-    .figcaption, img {
-        height: 75vw;
-        width: 75vw;
-        /* Make large block into a circle */
-        border-radius: 50%;
+    #forth-photo {
+        max-width: 225px;
+        max-height: 450px;
+        font-size: medium;
         float: right;
-        max-width: 270px;
-        max-height: 270px;
+        padding: 1.5%;
     }
+
+    #fifth-photo,
+    #fifth-photo-text {
+        width: 45vh;
+        float: right;
+    }
+
 
     #signup-form {
     width: 20%;
