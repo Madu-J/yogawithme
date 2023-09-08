@@ -256,7 +256,7 @@ img {
     /* Main content */
     main {
     /* Push main content down to accommodate larger header */
-    margin-top: 79px;
+    margin-top: 59px;
     }
     
 }
@@ -301,15 +301,20 @@ img {
         width: 20%;
         height: 100px;
         float: left;
-        margin-left: 70px;
+        margin-left: 150px;
         margin-top: 60px;
     }
 
-    #forth-photo {
-        width: 40vh;
-       float: right;
+    #second-section
+    .figcaption, img {
+        height: 75vw;
+        width: 75vw;
+        /* Make large block into a circle */
+        border-radius: 50%;
+        float: right;
+        max-width: 270px;
+        max-height: 270px;
     }
-
 
     #signup-form {
     width: 20%;
