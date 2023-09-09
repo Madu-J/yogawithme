@@ -277,24 +277,25 @@ img {
     }
 
     #first-section p {
-        width: 40%;
-        height: 100px;
-        float: left;
-        margin-left: 70px;
-        margin-top: 60px;
+        position: relative;
+        left: 145px;
+        bottom: 25px;
+        width: 55%;
+        height: 95%;
     }
 
         #second-image-text {
             width: 20%;
             height: 30px;
-            margin-left: 1200px;
+        
         }
 
     #second-photo {
-        width: 40vh;
-        margin: 30px;
         float: right;
-        margin-bottom: 900px;
+        position: relative;
+        bottom: 368px;
+        width: 350px;
+        height: 275px;
     }
 
 
