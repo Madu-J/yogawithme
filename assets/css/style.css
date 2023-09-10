@@ -91,10 +91,11 @@ main {
 }
 
 #hero {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url(../images/yoga-class.jpg) no-repeat center center/cover;
     position: relative;
+
 }
 
 #cover-text {
@@ -236,6 +237,12 @@ img {
         margin: 0 0.5rem;
     }
 
+    #cover-text {
+    width: 50%;
+    }
+
+
+
     /* About section */
     #about {
     background-color: cadetblue;
@@ -256,7 +263,8 @@ img {
     /* Main content */
     main {
     /* Push main content down to accommodate larger header */
-    margin-top: 59px;
+    margin-top: 47px;
+    padding: 5px;
     }
     
 }
@@ -267,69 +275,92 @@ img {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    #cover-text {
+       width: 25%;
+    }
+
     #first-photo {
-        width: 40vh;
+        width: 45vh;
         float: left;
 
     }
     #first-section h3 {
-       margin-right: 1200px;
+       position: relative;
+       right: 553px;
     }
 
     #first-section p {
         position: relative;
-        left: 145px;
+        left: 117px;
         bottom: 25px;
         width: 55%;
         height: 95%;
     }
 
-        #second-image-text {
-            width: 20%;
-            height: 30px;
-        
-        }
+    #second-image-text {
+        position: relative;
+        left: 76%;
+        bottom: 410px;
+        width: 20%;
+        height: 30px;
+    }
 
     #second-photo {
         float: right;
         position: relative;
-        bottom: 368px;
-        width: 350px;
-        height: 275px;
+        bottom: 425px;
+        width: 50vh;
+        height: 300px;
     }
 
 
     #third-photo {
-       /* Make large block into a circle */
-       border-radius: 50%;
-       width: 90vh;
-       float: left;
+        float: left;
+       width: 90%;
+       padding: 7.5px;
        max-width: 370px;
        max-height: 370px;
     }
 
     #second-section p {
-        width: 20%;
-        height: 100px;
-        float: left;
-        margin-left: 80px;
-        margin-top: 60px;
+        position: relative;
+        left: 515px;
+        bottom: 375px;
+        width: 22.5%;
+        height: 150px;
     }
 
     #second-section
     #forth-photo {
-        max-width: 225px;
-        max-height: 450px;
-        font-size: medium;
         float: right;
-        padding: 1.5%;
+        position: relative;
+        left: 1%;
+        padding: 20px;
+        bottom: 76px;
+        font-size: medium;
+        width: 240px;
+        max-height: 370px;
     }
 
-    #fifth-photo,
-    #fifth-photo-text {
-        width: 45vh;
-        float: right;
+    
+
+    #fifth-photo {
+        position: relative;
+        left: 550px;
+        bottom: 200px;
+        width: 90%;
+        max-width: 390px;
+        max-height: 400px;
     }
+
+    .fifth-photo-text {
+        width: 45vh;
+        position: relative;
+        left: 595px;
+        bottom: 200px;
+    }
+
+
 
 
     #signup-form {
