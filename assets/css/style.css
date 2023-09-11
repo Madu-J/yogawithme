@@ -25,6 +25,10 @@ h1, h2 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #fff;
@@ -125,9 +129,6 @@ img {
     margin: 15px;
 }
 
-
-
-
 /* About section */
 #about p {
     background-color: cadetblue;
@@ -135,6 +136,21 @@ img {
     text-align: center;
     width: 90%;
     margin: 15px;
+}
+
+/* Gallery */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+/* Video clips */
+#yoga-clips {
+    width: 400px;
 }
 
 /* Form */
@@ -195,6 +211,14 @@ img {
     color: #3a3a3a;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */ 
 @media screen and (min-width: 768px) {
     /* Header */
@@ -240,8 +264,6 @@ img {
     width: 50%;
     }
 
-
-
     /* About section */
     #about {
     background-color: cadetblue;
@@ -250,6 +272,10 @@ img {
     margin: 150px;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 
     /* Form */
     #signup {
@@ -379,5 +405,10 @@ img {
        text-align: center;
        margin: 100px;
    }
-
+   
+   /* Gallery */
+   #photos img {
+    width: 60vh;
+       
+   }
 }
