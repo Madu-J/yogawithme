@@ -124,7 +124,7 @@ img {
     margin: 30px;
 }
 
-#first-section p {
+#second-section p {
     font-size: 100%;
     margin: 15px;
 }
@@ -310,27 +310,36 @@ img {
     }
 
     #first-photo {
-        width: 45vh;
         float: left;
-
-    }
-    #first-section h3 {
-       position: relative;
-       right: 553px;
-    }
-
-    #first-section p {
         position: relative;
-        left: 117px;
-        bottom: 25px;
-        width: 55%;
-        height: 95%;
+        top: 80px;
+        max-width: 370px;
+        max-height: 370px;
+    }
+
+    #cap-text {
+       position: relative;
+       left: 90px;
+       top: 50px;
+    }
+
+    .first-image-text{
+        position: relative;
+        right: 400px;
+        top: 455px;
+    }
+
+    #second-section p {
+        position: relative;
+        left: 79px;
+        top: 55px;
+        width: 62.5%;
     }
 
     #second-image-text {
         position: relative;
-        left: 76%;
-        bottom: 410px;
+        left: 78%;
+        top: 75px;
         width: 20%;
         height: 30px;
     }
@@ -338,38 +347,46 @@ img {
     #second-photo {
         float: right;
         position: relative;
-        bottom: 425px;
-        width: 50vh;
-        height: 300px;
+        bottom: 330px;
+        max-width: 370px;
+        max-height: 370px;
     }
 
 
     #third-photo {
-        float: left;
+       float: left;
+       position: relative;
+       top: 95px;
        width: 90%;
-       padding: 7.5px;
        max-width: 370px;
        max-height: 370px;
     }
 
-    #second-section p {
+    .third-image-text{
+        position: relative;
+        top: 510px;
+    }
+
+    #third-section p {
         position: relative;
         left: 515px;
-        bottom: 375px;
+        bottom: 278px;
         width: 22.5%;
         height: 150px;
     }
 
-    #second-section
+    #third-section
     #forth-photo {
         float: right;
         position: relative;
-        left: 1%;
-        padding: 20px;
-        bottom: 76px;
-        font-size: medium;
-        width: 240px;
-        max-height: 370px;
+        bottom: 67px;
+        max-width: 200px;
+        max-height: 300px;
+    }
+
+    .forth-photo-text{
+        position: relative;
+        top: 200px;
     }
 
     
@@ -377,7 +394,7 @@ img {
     #fifth-photo {
         position: relative;
         left: 550px;
-        bottom: 200px;
+        bottom: 190px;
         width: 90%;
         max-width: 390px;
         max-height: 400px;
@@ -387,16 +404,13 @@ img {
         width: 45vh;
         position: relative;
         left: 595px;
-        bottom: 200px;
+        top: 240px;
     }
-
-
-
 
     #signup-form {
     width: 20%;
     margin: 15px;
-   }
+    }
 
     /* About section */
     #about {
