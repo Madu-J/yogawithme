@@ -364,16 +364,25 @@ video {
     width: 100%;
     }
 
-    #cover-text {
+    #cover-text h2 {
        width: 25%;
     }
 
-    #first-photo {
-        float: left;
-        position: relative;
-        top: 80px;
-        max-width: 370px;
-        max-height: 370px;
+    #main-section h3 {
+        font-size: 30px;
+    }
+
+    #second-section p {
+        font-size: 20px;
+        width: 20%;
+        height: 30px;
+    }
+    #second-section img {
+        width: 40vh;
+    }
+
+    #third-section img {
+        width: 50vh;
     }
 
     #cap-text {
