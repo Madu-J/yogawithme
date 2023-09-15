@@ -273,12 +273,12 @@ video {
     }
 
     #cover-text {
-    width: 50%;
+        width: 50%;
     }
 
     img {
         width: 70%;
-       float: right;
+        float: right;
     }
 
     #second-section h3 {
@@ -338,17 +338,17 @@ video {
 
     /* Form */
     #signup {
-    width: 68%;
-    left: 9.5%;
-    padding: 75px;
-    position: relative;
+       width: 68%;
+       left: 9.5%;
+       padding: 75px;
+       position: relative;
     }
 
     /* Main content */
     main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 50px;
-    padding: 5px;
+       /* Push main content down to accommodate larger header */
+       margin-top: 50px;
+       padding: 5px;
     }
     
 }
@@ -360,8 +360,8 @@ video {
     }
 
     #hero {
-    height: 800px;
-    width: 100%;
+       height: 800px;
+       width: 100%;
     }
 
     #cover-text h2 {
@@ -372,107 +372,91 @@ video {
         font-size: 30px;
     }
 
-    #second-section p {
-        font-size: 20px;
-        width: 20%;
-        height: 30px;
-    }
-    #second-section img {
-        width: 40vh;
+    #second-section h3 {
+       font-size: 100%;
+       position: relative;
+       left: 215px;
     }
 
-    #third-section img {
+    #first-photo {
+        position: relative;
+        right: 71%;
         width: 50vh;
     }
 
-    #cap-text {
+    #second-photo {
        position: relative;
-       left: 90px;
-       top: 50px;
-    }
-
-    .first-image-text{
-        position: relative;
-        right: 400px;
-        top: 455px;
+       bottom: 500px;
+       width: 50vh;
     }
 
     #second-section p {
+        font-size: 20px;
         position: relative;
-        left: 79px;
-        top: 55px;
-        width: 62.5%;
+        left: 420px;
+        width: 43%;
     }
 
-    #second-image-text {
+    .first-image-text {
         position: relative;
         left: 78%;
-        top: 75px;
-        width: 20%;
-        height: 30px;
-    }
-
-    #second-photo {
-        float: right;
-        position: relative;
-        bottom: 330px;
-        max-width: 370px;
-        max-height: 370px;
-    }
-
-
-    #third-photo {
-       float: left;
-       position: relative;
-       top: 95px;
-       width: 90%;
-       max-width: 370px;
-       max-height: 370px;
-    }
-
-    .third-image-text{
-        position: relative;
-        top: 510px;
+        bottom: 80px;
     }
 
     #third-section p {
+        font-size: 20px;
         position: relative;
-        left: 515px;
-        bottom: 278px;
-        width: 22.5%;
-        height: 150px;
+        left: 425px;
+        width: 25%;
     }
 
-    #third-section
+    #third-photo {
+        position: relative;
+        right: 42%;
+        bottom: 155px;
+        width: 50vh;
+    }
+
+    .third-image-text {
+        position: relative;
+        right: 21.3%;
+        top: 330px;
+    }
     #forth-photo {
-        float: right;
         position: relative;
-        bottom: 67px;
-        max-width: 200px;
-        max-height: 300px;
+        left: 60%;
+        bottom: 480px;
+        width: 25vh;
     }
 
-    .forth-photo-text{
+    .forth-image-text {
         position: relative;
-        top: 200px;
+        right: 17%;
+        top: 380px;
     }
-
-    
 
     #fifth-photo {
         position: relative;
-        left: 550px;
-        bottom: 190px;
-        width: 90%;
-        max-width: 390px;
-        max-height: 400px;
+        left: 65%;
+        bottom: 880px;
+        width: 70vh;
     }
 
     .fifth-photo-text {
-        width: 45vh;
         position: relative;
-        left: 595px;
-        top: 240px;
+        left: 8%;
+        top: 500px;
+    }
+
+    .fift-image-text {
+        position: relative;
+        bottom: 820px;
+        width: 98%;
+        height: 150px;
+    }
+
+    #reduce {
+        margin-bottom: -0;
     }
 
     /* About section */
@@ -485,31 +469,31 @@ video {
    
    /* Gallery */
    #photos {
-     column-count: 4;
-     column-gap: 0;  
+       column-count: 4;
+       column-gap: 0;  
    }
 
    /* Video */
    #yoga-clips video  {
-    width: 100%;
+       width: 100%;
    }
 
    .clip1 {
-    position: relative;
-    left: 975px;
-    bottom: 470px;
+       position: relative;
+       left: 975px;
+       bottom: 470px;
    }
 
    .clip2 {
-    position: relative;
-    left: 100px;
-    bottom: 325px;
+       position: relative;
+       left: 100px;
+       bottom: 325px;
    }
 
    .clip3 {
-    position: relative;
-    left: 450px;
-    top: 170px;
+       position: relative;
+       left: 450px;
+       top: 170px;
    }
 
    #signup-form {

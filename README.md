@@ -1,6 +1,6 @@
 Purpose
 
-# Yoga with me is a platform where users will learn yoga to improve their health and feel happy. The webpage will have a signup form where any interested person can sign up for a free trial yoga training. Anyone who sign the form will get an acknowledgment email
+## Yoga with me is a platform where users will learn yoga to improve their health and feel happy. The webpage will have a signup form where any interested person can sign up for a free trial yoga training. Anyone who sign the form will get an acknowledgment email
 
 The webpage will have "About" page for uses to read about what the website stands for and its aim. There will be signup link included in all the pages to help interested user have easy click to the signup section.
 
