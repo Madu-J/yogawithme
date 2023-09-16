@@ -117,12 +117,31 @@ img {
     margin: 30px;
 }
 
-#main-section h3 {
+#second-section h3 {
+    font-size: 110%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#second-section h4 {
+    font-size: 120%;
+    text-align: center;
+}
+
+#second-section p {
+    font-size: 100%;
+    margin: 15px;
+    letter-spacing: 1px;
+}
+
+#third-section h3, 
+#forth-photo h3,
+#fifth-photo h3 {
     font-size: 20px;
     text-align: center;
 }
 
-#main-section p {
+#third-section p, #fifth-photo p {
     font-size: 100%;
     margin: 15px;
     letter-spacing: 1px;
@@ -159,6 +178,7 @@ img {
 /* Video clips */
 video {
     width: 40vh;
+    margin: 10px;
 }
 
 /* Form */
@@ -272,8 +292,8 @@ video {
         margin: 0 0.5rem;
     }
 
-    #cover-text {
-        width: 50%;
+    #cover-text h2{
+        width: 40%;
     }
 
     img {
@@ -281,40 +301,41 @@ video {
         float: right;
     }
 
-    #second-section h3 {
-        font-size: 25px;
+    #second-section h3, 
+    #second-section h4 {
+        font-size: 35px;
         margin-top: 50px;
     }
     
-    #main-section p {
+    #second-section p, 
+    #third-section p, 
+    #fifth-photo p {
         font-size: 150%;
     }
     #second-photo {
         width: 93%;
     }
-
-    #third-section h3 {
-        font-size: 45px; 
-        
-    }
     #third-section img {
         margin-top: 100px;
     }
 
+    #third-section h3, 
+    #forth-photo h3, 
+    #fifth-photo h3 {
+        font-size: 35px;
+        position: relative;
+        top: 60px;
+        margin-left: 50px;
+    
+        }
 
-    #forth-photo h3 {
-        font-size: 45px;
+    #third-section p {
+        position: relative;
+        top: 50px;
     }
+
     #forth-photo img {
         width: 100%;
-    }
-
-    #fifth-photo h3 {
-        font-size: 45px;
-    }
-
-    #fifth-photo p {
-        margin-bottom: 40px;
     }
 
     /* About section */
@@ -329,11 +350,13 @@ video {
     #photos {
         column-count: 3;
         line-height: 0;
+        margin-top: 20px;
     }
 
     /* Video */
     #yoga-clips {
-        column-count: 3;
+        margin: 120px;
+    
     }
 
     /* Form */
@@ -354,109 +377,106 @@ video {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-    }
-
-    #hero {
-       height: 800px;
-       width: 100%;
     }
 
     #cover-text h2 {
        width: 25%;
     }
-
-    #main-section h3 {
-        font-size: 30px;
+    #second-section h3,
+    #second-section p, 
+    #second-section img {
+        position: relative;
     }
 
     #second-section h3 {
-       font-size: 100%;
-       position: relative;
-       left: 215px;
+       font-size: 150%;
+       margin-left: 0px;
     }
 
     #first-photo {
-        position: relative;
         right: 71%;
         width: 50vh;
     }
 
     #second-photo {
-       position: relative;
-       bottom: 500px;
+       bottom: 600px;
        width: 50vh;
     }
 
     #second-section p {
         font-size: 20px;
-        position: relative;
-        left: 420px;
-        width: 43%;
+        left: 480px;
+        width: 35%;
     }
 
-    .first-image-text {
+    #second-section h4 {
         position: relative;
-        left: 78%;
-        bottom: 80px;
+        font-size: 150%;
+        margin-left: 70%;
+        bottom: 180px;
     }
 
+    #third-section h3,
+    #third-section img,
     #third-section p {
-        font-size: 20px;
         position: relative;
-        left: 425px;
-        width: 25%;
     }
 
-    #third-photo {
-        position: relative;
+    #third-section h3 {
+        font-size: 150%;
+        right: 25%;
+        top: 330px;
+    }
+
+    #third-section img {
         right: 42%;
         bottom: 155px;
         width: 50vh;
     }
 
-    .third-image-text {
-        position: relative;
-        right: 21.3%;
-        top: 330px;
+    #third-section p {
+        font-size: 20px;
+        left: 480px;
+        width: 35%;
+        bottom: 700px;
     }
+
+    #forth-photo, 
+    #forth-photo h3 {
+        position: relative;
+    }
+
     #forth-photo {
-        position: relative;
-        left: 60%;
-        bottom: 480px;
-        width: 25vh;
+        margin-left: 75%;
+        bottom: 650px;
+        width: 50vh;
     }
 
-    .forth-image-text {
-        position: relative;
+    #forth-photo h3 {
+        font-size: 150%;
         right: 17%;
-        top: 380px;
+        top: 450px;
     }
 
-    #fifth-photo {
+    #fifth-photo img, 
+    #fifth-photo p {
         position: relative;
-        left: 65%;
-        bottom: 880px;
-        width: 70vh;
     }
 
-    .fifth-photo-text {
-        position: relative;
-        left: 8%;
-        top: 500px;
+    #fifth-photo img{
+        width: 80vh;
+        left: 220px;
+        bottom: 150px;
+
     }
 
-    .fift-image-text {
-        position: relative;
-        bottom: 820px;
-        width: 98%;
-        height: 150px;
-    }
-
-    #reduce {
-        margin-bottom: -0;
+    #fifth-photo p {
+        font-size: 130%;
+        left: 180px;
+        bottom: 60px;
     }
 
     /* About section */
@@ -466,34 +486,33 @@ video {
        text-align: center;
        margin: 100px;
    }
+
+   #about-section h2 {
+    margin-top: 60px;
+    width: 20%;
+    margin-left: 600px;
+   }
    
    /* Gallery */
    #photos {
        column-count: 4;
-       column-gap: 0;  
+       column-gap: 0;
+       margin-top: 20px;
    }
 
    /* Video */
-   #yoga-clips video  {
-       width: 100%;
+   #yoga-clips {
+    width: 70%;
+    position: relative;
+    bottom: 130px;
+    letter-spacing: 50px;
+    
+
    }
 
-   .clip1 {
-       position: relative;
-       left: 975px;
-       bottom: 470px;
-   }
-
-   .clip2 {
-       position: relative;
-       left: 100px;
-       bottom: 325px;
-   }
-
-   .clip3 {
-       position: relative;
-       left: 450px;
-       top: 170px;
+   #signup {
+    margin-top: 60px;
+    margin-left: 90px;
    }
 
    #signup-form {
