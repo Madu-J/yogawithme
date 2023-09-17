@@ -159,3 +159,14 @@ The css was validated using WCS CSS Validator (Jigsaw) <https://jigsaw.w3.org/cs
 The website was also texting in lighthouse ![CSS Validator](assets/images/cssvalidator.png)
 ![HTML Validator](assets/images/htmlvalidator.png)
 ![Lighthouse Testing](assets/images/lighthousetesting.png)
+
+## Acknowlegdment 
+I had challenge building the site because it kept crashing. At a pointed I started all over and and it kept crashing. The site pass validation when tested but when I put the link on am I responsive the website is showing crashed.
+
+I want to acknowledge my mentor Mr Antonio Rodringuez for assistancing me in fixing the issue. He stepped all out of his schedule to assist and rebuild the page. I'm truly thankful for his help.
+
+This is my skeleton plan for the page, but unfortnatly it crashed and I started all over.
+![Home Page Plan](assets/images/Home-sketching.jpg)
+![Signup Page Plan](assets/images/Signup-sketching.jpg)
+![About Page Plan](assets/images/About-sketching.jpg)
+
