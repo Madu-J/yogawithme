@@ -24,3 +24,60 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 2px;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#menu>li {
+    padding-left: 15px;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
+#logo {
+    font-size: large;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    display: flex;
+}
+
