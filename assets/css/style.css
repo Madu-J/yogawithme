@@ -166,3 +166,165 @@ footer {
     max-height: 600px;
     margin-left: 15%;
 }
+
+.gallery {
+    columns: 3;
+    gap: 12px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 33.3%;
+    height: 400px;
+}
+
+/* Form */
+#signup {
+    background-image: url(../images/manonliveyoga.jpg);
+    height: 500px;
+    width: 80%;
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    margin-top: 50px;
+}
+
+#signup-form {
+    color: #fff;
+    background-color: rgba(30, 40, 30, 0.6);
+    height: 300px;
+    padding: 20px;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#signup-form label {
+    display: block;
+}
+
+#submit {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width: 80%;
+    height: 20px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 478px) {
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #3a3a3a;
+    font-size: medium;
+}
+    
+header {
+    background-color: #ffffff;
+/* To prevent the text from sticking to the side of the screen */
+    padding: 12px;
+    position: fixed;
+    z-index: 99;
+    width: 92%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+    
+header a {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 2px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+        
+#menu>li {
+    margin-bottom: 1em;
+}
+        
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+        
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+        
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+        
+#nav-toggle {
+    display: none;
+}
+        
+.nav-toggle-label {
+    font-size: 2rem;
+    display: inline;
+    margin-right: 15px;
+}
+
+.gallery img {
+    width: 100%;
+   }
+    
+}
+
+@media screen and (max-width: 768px) {
+.flex-container {
+    flex-direction: column;
+}
+
+#image-text,
+#image-text-2,
+#image-text-3 {
+    width: 100%;
+}
+
+#image-1,
+#image-2,
+#image-3,
+#image-4,
+#image-5 {
+    width: 100%;
+    height: 100%;
+                
+  }
+   #image-1 img,
+   #image-2 img,
+   #image-3 img,
+   #image-4 img {
+       max-width: 100%;
+   }
+
+   .gallery img {
+       width: 50%;
+       margin-left: 25%;
+   }
+}
+
+ 
