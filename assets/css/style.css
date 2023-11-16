@@ -1,16 +1,10 @@
-/* Font Awesome */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0%;
-    margin: 0;
-    box-sizing: border-box;
+body {
+    background-color: #F0F0F0;
+    overflow-x: hidden;
 }
 
-/* General style */
-body {
-    background-color: #F0F0F0
+html {
+    overflow-x: hidden;
 }
 
 header {
@@ -106,8 +100,7 @@ footer {
     margin-top: 10px;
 }
 
-
-#about-us {
+.panel {
     columns: 3;
     gap: 12px;
     padding-top: 120px;
@@ -146,25 +139,25 @@ footer {
     width: 30%;
 }
 
-#pratice {
+#practice {
     columns: 2;
     gap: 12px;
+    padding-top: 120px;
 }
 
 #image-text-3 {
-    width: 45%;
-    padding-left: 20px;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
 }
 
 #image-5 {
-    width: 55%;
+    width: 50%;
 }
 
 #image-5 img {
-    width: 70%;
+    width: 100%;
     position: relative;
-    max-height: 600px;
-    margin-left: 15%;
 }
 
 .gallery {
@@ -221,110 +214,108 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 478px) {
-header h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    color: #3a3a3a;
-    font-size: medium;
-}
-    
-header {
-    background-color: #ffffff;
-/* To prevent the text from sticking to the side of the screen */
-    padding: 12px;
-    position: fixed;
-    z-index: 99;
-    width: 92%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-    
-header a {
-    text-decoration: none;
-    color: inherit;
-    letter-spacing: 2px;
-}
+    header h1 {
+        font-family: 'Oswald', sans-serif;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        color: #3a3a3a;
+        font-size: medium;
+    }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-        
-#menu>li {
-    margin-bottom: 1em;
-}
-        
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-        
-nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-}
-        
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-        
-#nav-toggle {
-    display: none;
-}
-        
-.nav-toggle-label {
-    font-size: 2rem;
-    display: inline;
-    margin-right: 15px;
-}
+    header {
+        background-color: #ffffff;
+        /* To prevent the text from sticking to the side of the screen */
+        padding: 12px;
+        position: fixed;
+        z-index: 99;
+        width: 92%;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 
-.gallery img {
-    width: 100%;
-   }
-    
+    header a {
+        text-decoration: none;
+        color: inherit;
+        letter-spacing: 2px;
+    }
+
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+        list-style-type: none;
+    }
+
+    #menu>li {
+        margin-bottom: 1em;
+    }
+
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    nav {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: none;
+        top: 100%;
+    }
+
+    /* Nav toggle */
+    #nav-toggle:checked~nav {
+        display: block;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        font-size: 2rem;
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-.flex-container {
-    flex-direction: column;
+    .flex-container {
+        flex-direction: column;
+    }
+
+    #image-text,
+    #image-text-2,
+    #image-text-3 {
+        width: 100%;
+    }
+
+    #image-1,
+    #image-2,
+    #image-3,
+    #image-4,
+    #image-5 {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #image-1 img,
+    #image-2 img,
+    #image-3 img,
+    #image-4 img {
+        max-width: 100%;
+    }
+
+    .gallery img {
+        width: 50%;
+        margin-left: 25%;
+    }
 }
-
-#image-text,
-#image-text-2,
-#image-text-3 {
-    width: 100%;
-}
-
-#image-1,
-#image-2,
-#image-3,
-#image-4,
-#image-5 {
-    width: 100%;
-    height: 100%;
-                
-  }
-   #image-1 img,
-   #image-2 img,
-   #image-3 img,
-   #image-4 img {
-       max-width: 100%;
-   }
-
-   .gallery img {
-       width: 50%;
-       margin-left: 25%;
-   }
-}
-
- 
