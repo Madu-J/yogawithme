@@ -181,6 +181,7 @@ footer {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
     margin-top: 50px;
+    text-align: center;
 }
 
 #signup-form {
@@ -199,7 +200,6 @@ footer {
 
 #submit {
     width: 60%;
-    margin-left: 15%;
 }
 
 .text-input {
