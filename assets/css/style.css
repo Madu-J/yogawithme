@@ -167,8 +167,8 @@ footer {
 }
 
 .gallery img {
-    width: 33.3%;
-    height: 400px;
+    width: 30%;
+    height: 350px;
 }
 
 /* Form */
@@ -316,6 +316,6 @@ footer {
 
     .gallery img {
         width: 50%;
-        margin-left: 25%;
+        margin-left: 20%;
     }
 }
