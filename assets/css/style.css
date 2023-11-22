@@ -19,13 +19,6 @@ header {
     align-items: baseline;
 }
 
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-}
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -173,7 +166,6 @@ footer {
 
 /* Form */
 #signup {
-    background-image: url(../images/manonliveyoga.jpg);
     height: 500px;
     width: 80%;
     background-size: cover;
@@ -213,6 +205,7 @@ footer {
     padding: 0 5px;
 }
 
+/* Media querry for small screen */
 @media screen and (min-width: 320px) and (max-width: 478px) {
     header h1 {
         font-family: 'Oswald', sans-serif;
@@ -258,7 +251,7 @@ footer {
     nav {
         position: absolute;
         background-color: #ffffff;
-        width: 100%;
+        width: fit-content;
         left: 0;
         padding: 0 1rem;
         box-shadow: 0 2px 2px #3a3a3a;
@@ -289,6 +282,14 @@ footer {
 @media screen and (max-width: 768px) {
     .flex-container {
         flex-direction: column;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: 100%;
+        padding-right: 1rem;
     }
 
     #image-text,
