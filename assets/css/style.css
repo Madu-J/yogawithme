@@ -141,6 +141,7 @@ footer {
     columns: 2;
     gap: 12px;
     padding-top: 120px;
+    margin-right: 7%;
 }
 
 #image-text-3 {
@@ -188,7 +189,7 @@ footer {
     padding: 20px;
     margin-top: 30px;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 8%;
 }
 
 #signup-form label {
