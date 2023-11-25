@@ -3,9 +3,13 @@
 
 # Real Yoga
 
-is a platform where users will learn yoga to improve their health and feel happy. The webpage will have a signup form where any interested person can sign up for yoga training. Anyone who sign the form will get an acknowledgment email
+is a platform where users will learn yoga to improve their health and feel happy. The website will have one page, four sections with home, about, gallery and sign up.
 
-The webpage will have "About" page for users to read about what the website stands for and its aim. There will be signup link included in all the pages to help interested user have easy click to the signup section.
+The "Home section" is the main website while the "About section" is for users to read about what the website stands for and its aim. The "Gallery section" is where there will be number of images to showcase what the website is all about and that will go a long way in attracting more customers to Real Yoga.
+
+The webpage will have a signup form where any interested person can sign up for yoga training. Anyone who sign the form will get an acknowledgment email once signing up is complete.
+
+Also there will be signup link included in all the sections except the gallery section to help interested user have easy click to the signup section.
 
 User Experience Design
 User Stories
