@@ -3,9 +3,9 @@
 
 # Real Yoga
 
-is a platform where users will learn yoga to improve their health and feel happy. The website will have one page, four sections with home, about, gallery and sign up.
+is a platform where users will learn yoga to improve their health and feel happy. The website will have one page with four sections which will consist of home, about, gallery and sign up.
 
-The "Home section" is the main website while the "About section" is for users to read about what the website stands for and its aim. The "Gallery section" is where there will be number of images to showcase what the website is all about and that will go a long way in attracting more customers to Real Yoga.
+The "Home section" is the main page while the "About section" is for users to read about what the website stands for and its aim. The "Gallery section" is where there will be number of images to showcase some yoga activities which will go a long way in attracting more users to the website.
 
 The webpage will have a signup form where any interested person can sign up for yoga training. Anyone who sign the form will get an acknowledgment email once signing up is complete.
 
@@ -22,11 +22,11 @@ User Stories
 
 . As first-time user I use my phone often, so I want to view the website content clearly on my mobile.
 
-. As a first-time user I found the site interesting and want to join the yoga class to improve my health.
+. As a first-time user I want to found the site interesting and want to join the yoga class to improve my health.
 
 ## Returning Visitors Goals
 
-. As a returning use I want to see different yoga pass and its benefits
+. As a returning use I want to see different yoga class and its benefits
 
 .  As a returning user I want to join the yoga class.
 
@@ -40,15 +40,16 @@ User Stories
 
 ## Site structure
 
-All pages contain a navigation menu at the top right side of the website. Users can easily move from one page to the other. The navigation menu collapses on mobile and show font icon of bars. This is done for the aim purpose of fulfilling user story:
+All pages contain a navigation menu at the top right side of the website. Users can easily move from one page to the other. The navigation menu collapses on mobile and show font awesome icon of bars. This is done for the aim purpose of fulfilling user story:
 
 | As first-time user I want to easily navigate throughout the website and find content.
+| As first-time user I use my phone often, so I want to view the website content clearly on my mobile.
 
 The home page contains a full bio about the Web page to tell the user what the page is for and its aim. This is to fulfil the purpose of user story:
 
 | I want to easily understand what the site main purpose is.
 
-CSS Media query is used to make the website responsive.
+CSS Media query is used to make the website responsive to fit all screen sizes.
 
 All pages are responsible and the layout changes depending on the user screen size. This is to ensure content flow is applied and images are displayed properly. The website doesn't shrink side by side that it becomes unreadable in small screen. This purpose is to fulfil user experience.
 
@@ -57,13 +58,6 @@ All pages are responsible and the layout changes depending on the user screen si
 All pages contain a footer Element with social media icons for any user that wants contact the trainer. The user can send message through any of the social media platforms. The icons used is from font-awesome. This is to fulfil the sole purpose of user story:
 
 | As a returning user I want to contact the site owner and share my health journey and result
-
-The signup page will have form for users who wants to join yoga class. This is to fulfil the sole purpose of user story:
-| As a first-time user I found the site interested and want to join yoga class
-
-| As a returning user I want to join the yoga class.
-
-| As a frequent user I want to see more yoga poses and its health benefits
 
 The About page will contain background information about the page owner and the mission statement of the page. This is for the purpose of user story:
 
@@ -74,9 +68,16 @@ The gallery page will contain photos of different yoga pose. This is for the pur
 
 | As a frequent user I want to see more content;
 
+The signup page will have form for users who wants to join yoga class. This is to fulfil the sole purpose of user story:
+| As a first-time user I found the site interested and want to join yoga class
+
+| As a returning user I want to join the yoga class.
+
+| As a frequent user I want to see more yoga poses and its health benefits.
+
 ## Design
 
-The site will use 3 colors dark green background, white for header and footer and white to make the text readable for all user.
+The site will have plain white background to make the text readable for all user.
 
 ## Typography
 
@@ -88,18 +89,20 @@ All images and videos were gotten from Canva and accesses granted as a subscribe
 
 Features Left to Implement
 Improve page performance to 100%.
-Payment option for any user want to go futher after the one month free trial is exhausted.
+Payment option for any user who wants to go futher after the one month free trial is exhausted.
 Callender where users can book time for personal training
 
 ## Technologies
 
-. ##HTML ... This project use HTML as the main language to complete the structure of the website.
+## HTML
+ 
+. This project use HTML as the main language to complete the structure of the website.
 
 ## CSS
 
-. This project will use CSS in styling the website. The CSS style.css will be created separately and linked to HTML.
+. This project will use CSS in styling the website. The style.css file will be created separately and linked to HTML.
 
-## vFont Awesome
+## Font Awesome
 
 . Font awesome icons are used for the navbar and link contain in the header. Other font awesome icons are for social media platforms and links contains in the footer.
 
@@ -126,14 +129,14 @@ git commit -m "and the message that tells what I have done"
 
 ## Project Creation
 
-. This project will be created using "Code Institute Full Template. <https://github.com/Code-Institute-Org/ci-full-template> This is done Under by creating  a new repository of Real Yoga. Under code a HTML link of Real Yoga was copied to clipboard and a new work space was created on app.codeanywhere using the GitHub link of Yoga With Me. During the project python3 -m http.server was used to open the and view the project on web browser.
+. This project will be created using "Code Institute Full Template. <https://github.com/Code-Institute-Org/ci-full-template> This is done Under by creating  a new repository of yoga with me (Real yoga). Under code a HTML link of Real Yoga was copied to clipboard and a new work space was created on app.codeanywhere using the GitHub link of Yoga With Me. During the project python3 -m http.server was used to open the and view the project on web browser.
 
-. git add. and git commit -m and a message that explaining the updates. This command was used throughout the project to commit changes to the local repository.
+. git add . and git commit -m and a message that explaining the updates. This command was used throughout the project to commit changes to the local repository.
 
 Then git push command is used to push all committed work and changes to the GitHub repository.
 
 Deployment
-This project was deployed on navigating to the GitHub repository
+This project was deployed by navigating to the GitHub repository
 
 1 Click the Settings tab
 
@@ -144,13 +147,12 @@ This project was deployed on navigating to the GitHub repository
 # Credits
 
 All images and videos use on this project was taken from Canva and permission was obtained as a pro member of <www.canva.com/>
-To love running web designer. The love running project helped in creating my page to be responsivive on all device
 
 # Testing
 
 The testing performed on the visual effects and layout of the Website. Testing was done on all the web browsers and all screen sizes.
 
-All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html.
+All nav links should direct to the correct html section as per their names. The Home page is the exception, this one will redirect to index.html.
 
 All links to external websites must open in a new browser.
 
@@ -164,13 +166,11 @@ The website was also texting in lighthouse ![CSS Validator](assets/images/cssval
 ![HTML Validator](assets/images/htmlvalidator.png)
 ![Lighthouse Testing](assets/images/lighthousetesting.png)
 
-## Acknowlegdment 
-I had challenge building the site because it kept crashing. At a pointed I started all over and and it kept crashing. The site pass validation when tested but when I put the link on am I responsive the website is showing crashed.
+## Acknowlegdment
 
-I want to acknowledge my mentor Mr Antonio Rodringuez for assistancing me in fixing the issue. He stepped all out of his schedule to assist and rebuild the page. I'm truly thankful for his help.
+I want to acknowledge my mentor Mr Antonio Rodringuez for assistancing me in fixing some issues encounted during the web development.
 
-This is my skeleton plan for the page, but unfortnatly it crashed and I started all over.
+This skeleton is my initial plan for this page, but unfortnatly it crashed and I started all over.
 ![Home Page Plan](assets/images/Home-sketching.jpg)
 ![Signup Page Plan](assets/images/Signup-sketching.jpg)
 ![About Page Plan](assets/images/About-sketching.jpg)
-
