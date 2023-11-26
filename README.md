@@ -1,6 +1,7 @@
 ![Live page] (<https://madu-j.github.io/yogawithme/>)
 # Purpose
 
+![Am I responsive](assets/images/Responsive1.png)
 # Real Yoga
 
 is a platform where users will learn yoga to improve their health and feel happy. The website will have one page with four sections which will consist of home, about, gallery and sign up.
@@ -162,9 +163,9 @@ Validation of inclusion for all features included in the Structure of the Websit
 
 The Home page, About, Gallery and signup page was validated using WC3 HTML Validator <https://validator.w3.org/> and all the pages passed the validation process.
 The css was validated using WCS CSS Validator (Jigsaw) <https://jigsaw.w3.org/css-validator/>
-The website was also texting in lighthouse ![CSS Validator](assets/images/cssvalidator.png)
-![HTML Validator](assets/images/htmlvalidator.png)
-![Lighthouse Testing](assets/images/lighthousetesting.png)
+The website was also texting in lighthouse ![CSS Validator](assets/images/CssValidation1.png)
+![HTML Validator](assets/images/HtmlValidation1.png)
+![Lighthouse Testing](assets/images/LighthouseT1.png)
 
 ## Acknowlegdment
 
